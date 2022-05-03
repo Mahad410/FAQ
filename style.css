@@ -254,7 +254,7 @@ input[type=checkbox]:checked~label~p {
         font-size: 2rem;
     }
     input[type=checkbox]+label {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
     label:hover {
         color: #4a4b5e !important;
