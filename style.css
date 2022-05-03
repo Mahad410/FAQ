@@ -236,11 +236,8 @@ input[type=checkbox]:checked~label~p {
 }
 
 @media screen and (max-width:475px) {
-    body {
-        overflow: hidden;
-    }
     .container {
-        height: 70vh;
+        height: 75vh;
     }
     .questions {
         height: 45vh;
