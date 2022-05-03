@@ -219,7 +219,7 @@ input[type=checkbox]:checked~label~p {
         background: url(women-mobile.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        width: 60%;
+        width: 50%;
         height: 380px;
         position: absolute;
         left: 50%;
@@ -229,9 +229,9 @@ input[type=checkbox]:checked~label~p {
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:770px) {
     main::after {
-        top: -33%;
+        top: -20%;
     }
 }
 
@@ -242,7 +242,7 @@ input[type=checkbox]:checked~label~p {
         padding: 0 35px;
     }
     main::after {
-        top: -18%;
+        top: -14%;
     }
     main {
         margin: 150px auto 80px;
@@ -271,7 +271,7 @@ input[type=checkbox]:checked~label~p {
 
 @media screen and (max-width:380px) {
     main::after {
-        top: -16%;
+        top: -13%;
     }
     main {
         margin: 120px auto 50px;
@@ -280,7 +280,7 @@ input[type=checkbox]:checked~label~p {
 
 @media screen and (max-width:325px) {
     main::after {
-        top: -14%;
+        top: -10%;
     }
     main {
         margin: 120px auto 50px;
