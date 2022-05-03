@@ -192,7 +192,7 @@ input[type=checkbox]:checked~label~p {
         display: none;
     }
     .images-mbl img {
-        width: 60%;
+        width: 70%;
         height: auto;
         position: relative;
         left: 50%;
@@ -236,16 +236,22 @@ input[type=checkbox]:checked~label~p {
 }
 
 @media screen and (max-width:475px) {
+    body {
+        overflow: hidden;
+    }
+    .container {
+        height: 70vh;
+    }
     .questions {
-        height: 60vh;
+        height: 45vh;
         overflow-x: hidden;
         padding: 0 35px;
     }
     main::after {
-        top: -14%;
+        top: 0;
     }
     main {
-        margin: 150px auto 80px;
+        margin: 50px auto 30px;
     }
     label::after {
         left: 98%;
@@ -271,18 +277,15 @@ input[type=checkbox]:checked~label~p {
 
 @media screen and (max-width:380px) {
     main::after {
-        top: -13%;
+        top: 2%;
     }
     main {
-        margin: 120px auto 50px;
+        margin: 40px auto 20px;
     }
 }
 
 @media screen and (max-width:325px) {
     main::after {
-        top: -10%;
-    }
-    main {
-        margin: 120px auto 50px;
+        top: 5%;
     }
 }
