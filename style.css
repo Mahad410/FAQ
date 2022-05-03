@@ -240,7 +240,7 @@ input[type=checkbox]:checked~label~p {
         height: 75vh;
     }
     .questions {
-        height: 45vh;
+        height: 40vh;
         overflow-x: hidden;
         padding: 0 35px;
     }
